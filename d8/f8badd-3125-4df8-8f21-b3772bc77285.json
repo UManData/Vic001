@@ -1,0 +1,119 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 8,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "",
+    "commit": "4353d7902bca918bed11c736efa116514364f5e7",
+    "conditionals": null,
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 150.0,
+            "gain": 1.0
+        },
+        "CDD": {
+            "deflection": 130.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 330.15873015873,
+            "gain": 1.0
+        },
+        "L2": {
+            "deflection": 600.0,
+            "gain": 1.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "Excimer_3914",
+    "experiment_type": "Ar/Ar",
+    "extraction": "argus_EXCIMER_sample_pump_to_IP_fire.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "3914",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Can36",
+    "irradiation_level": "M",
+    "irradiation_position": 4,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": 0.0,
+    "mass_spectrometer": "Argus",
+    "material": "Muscovite",
+    "measurement": "argus_sample.py",
+    "note": "",
+    "post_equilibration": "argus_pump_sample_to_IP.py",
+    "post_measurement": "argus_pump_ms.py",
+    "principal_investigator": "Camacho, A",
+    "project": "Vic001",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Vic001",
+    "rlocation": "",
+    "sample": "PH1",
+    "source": {
+        "emission": 742.555,
+        "trap": 198.035
+    },
+    "spec_sha": "9263314ffa2b34c3b90a9d3bc7c5e1b1f1be6b20",
+    "timestamp": "2025-11-30T05:39:41.423473",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "root",
+    "uuid": "d8f8badd-3125-4df8-8f21-b3772bc77285",
+    "whiff_result": null
+}
